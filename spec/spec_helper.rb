@@ -12,6 +12,7 @@ RSpec.configure do |config|
   end
 
   Capybara.default_driver = :selenium
+  Capybara.default_selector = :xpath
 
   config.include Capybara::DSL
 end
